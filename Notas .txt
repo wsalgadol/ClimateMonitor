@@ -1,0 +1,7 @@
+Notas: 
+
+1. Se remueve la asignación a string.Empty a la propiedad FirmwareVersion del modelo DeviceReadingRequest
+2. Se quita la propiedad deviceSecret de los parametros del request y se obtiene en el controlador Directamente del Request. no como parámetro.
+3. En Alert Service se organiza la validación para temperatur y humedad respectivamente
+4. se agrega clase para la validación del firmaware usando regex
+5. Se agrega la validación del firmware para que retorne bad request con diccionario de errores 

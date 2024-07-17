@@ -5,7 +5,7 @@ namespace ClimateMonitor.Services.Models;
 public class DeviceReadingRequest
 {
     [Required]
-    public string FirmwareVersion { get; set; } = string.Empty;
+    public string FirmwareVersion { get; set; }
 
     [Required]
     public decimal Temperature { get; set; }
